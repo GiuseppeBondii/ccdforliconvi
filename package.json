@@ -1,8 +1,8 @@
 {
-  "name": "ccd311224",
+  "name": "ccdforliconvi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://giuseppebondii.github.io/ccd311224",
+  "homepage": "https://giuseppebondii.github.io/ccdforliconvi",
   "dependencies": {
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
