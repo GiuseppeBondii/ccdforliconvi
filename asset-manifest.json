@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ccdforliconvi/static/css/main.1c8e84d6.css",
+    "main.js": "/ccdforliconvi/static/js/main.67557bc0.js",
+    "static/js/488.be765937.chunk.js": "/ccdforliconvi/static/js/488.be765937.chunk.js",
+    "static/media/image.png": "/ccdforliconvi/static/media/image.40f6f4aa275cb9315002.png",
+    "index.html": "/ccdforliconvi/index.html",
+    "main.1c8e84d6.css.map": "/ccdforliconvi/static/css/main.1c8e84d6.css.map",
+    "main.67557bc0.js.map": "/ccdforliconvi/static/js/main.67557bc0.js.map",
+    "488.be765937.chunk.js.map": "/ccdforliconvi/static/js/488.be765937.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c8e84d6.css",
+    "static/js/main.67557bc0.js"
+  ]
+}
