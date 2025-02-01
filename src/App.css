@@ -1,0 +1,178 @@
+/* App.css */
+
+/* Resetta i margini e i padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Body */
+body {
+  background: linear-gradient(135deg, #f4f4f9, #e0e0e0);
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+  min-height: 100vh;
+  padding: 0 10px; /* Margini laterali */
+}
+
+/* Contenitore principale */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Testo principale */
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+/* Bottoni generici */
+button {
+  background-color: #db3434;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #b94629;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+button:focus {
+  outline: none;
+  border: 2px solid #3498db;
+}
+
+/* Input */
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Layout contenitore con griglia responsiva */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+/* Card */
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 4px solid #f1f1f1;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h2 {
+  font-size: 1.75rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.card-content p {
+  font-size: 1rem;
+  color: #7f8c8d;
+  line-height: 1.5;
+}
+
+/* Mobile-first design */
+
+/* Stili per schermi piccoli (mobile) */
+.app-container {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.container {
+  grid-template-columns: 1fr;
+  padding: 0 10px;
+}
+
+button {
+  width: 40%;
+  font-size: 1rem;
+  padding: 12px 20px;
+  margin-left: 30%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 12px;
+  margin-bottom: 10px;
+  width: 70%;
+  margin-right: 20px;
+  margin-left: 15%;
+  align-self: center;
+}
+
+
+.question{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left:20px;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.Giornale {
+  width: 120%;
+  height: auto; /* Mantiene le proporzioni dell'immagine */
+  margin-left: -10%;
+}
